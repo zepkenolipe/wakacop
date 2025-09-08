@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /wakacop
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /swagger
