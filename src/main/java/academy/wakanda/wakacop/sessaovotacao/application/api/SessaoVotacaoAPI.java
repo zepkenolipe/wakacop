@@ -4,9 +4,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/sessao/abertura")
+@RequestMapping("/sessao")
 public interface SessaoVotacaoAPI {
     @ResponseStatus(HttpStatus.CREATED)
-    @PostMapping
+    @PostMapping("/abertura")
     SessaoAberturaResponse abreSessao(@RequestBody SessaoAberturaRequest novaSessaoVotacao);
 }
