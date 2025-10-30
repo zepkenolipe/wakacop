@@ -9,6 +9,4 @@ import lombok.ToString;
 public class VotoRequest {
     private String cpfAssociado;
     private OpcaoVoto opcao;
-    private String codigoSessao;
-    private Boolean voto;
 }
